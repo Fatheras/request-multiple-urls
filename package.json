@@ -1,0 +1,29 @@
+{
+  "name": "request-multiple-urls",
+  "version": "1.0.0",
+  "description": "A package that allows you to request multiple URLs with a single function",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fatheras/request-multiple-urls.git"
+  },
+  "author": "Stas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fatheras/request-multiple-urls/issues"
+  },
+  "homepage": "https://github.com/Fatheras/request-multiple-urls#readme",
+  "dependencies": {
+    "abort-controller": "^3.0.0",
+    "axios": "^0.27.2",
+    "valid-url": "^1.0.9"
+  },
+  "devDependencies": {
+    "axios-mock-adapter": "^1.20.0",
+    "jest": "^28.1.0"
+  }
+}
